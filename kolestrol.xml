@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_kolesterol"
+    tools:context="com.example.sergio.kolestrol_1.kolestrol">
+
+        <ImageButton
+            android:id="@+id/btn_biodata"
+            android:layout_width="154dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/btn_bio"
+            android:onClick="buttonOnClick"
+            tools:layout_editor_absoluteY="295dp"
+            tools:layout_editor_absoluteX="222dp" />
+
+        <ImageButton
+            android:id="@+id/btn_cekkol"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:background="@drawable/btn_cekkol"
+            android:onClick="buttonOnClick"
+            tools:layout_editor_absoluteY="230dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageButton
+            android:id="@+id/btn_panduansehat"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_panduan"
+            android:onClick="buttonOnClick"
+            tools:layout_editor_absoluteY="360dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageButton
+            android:id="@+id/btn_catatan"
+            android:layout_width="154dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/btn_cattan"
+            android:onClick="buttonOnClick"
+            tools:layout_editor_absoluteY="295dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+</android.support.constraint.ConstraintLayout>

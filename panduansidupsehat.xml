@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panduan_hidup"
+    tools:context="com.example.sergio.kolestrol_1.Panduansidupsehat">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="192dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="139dp">
+
+        <ImageButton
+            android:id="@+id/btn_pencegahan"
+            android:layout_width="247dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_pencegahan" />
+
+        <ImageButton
+            android:id="@+id/btn_pengobatan"
+            android:layout_width="247dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/btn_pengobatan" />
+
+        <ImageButton
+            android:id="@+id/btn_obather"
+            android:layout_width="247dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/btn_obather" />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

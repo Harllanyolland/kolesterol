@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biodata_baru"
+    tools:context="com.example.sergio.kolestrol_1.Registerasi">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_above="@+id/tx_nama"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/tx_nama"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:maxLength="100"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="89dp"
+        tools:layout_editor_absoluteX="30dp">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur"
+        android:layout_above="@+id/tx_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="137dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/tx_number"
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:inputType="number"
+        android:maxLength="20"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/btn_kembali"
+        android:layout_alignEnd="@+id/btn_kembali"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:layout_above="@+id/tx_tanggal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="201dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/tx_tanggal"
+        android:layout_width="318dp"
+        android:layout_height="36dp"
+        android:inputType="date"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="218dp"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_below="@+id/tx_tanggal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="263dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/tx_kelamin"
+        android:layout_width="328dp"
+        android:layout_height="41dp"
+        android:inputType="text"
+        android:maxLength="1"
+        android:hint="Laki_laki atau Perempuan"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="280dp"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Badan"
+        android:layout_below="@+id/tx_kelamin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="329dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/tx_beratbadan"
+        android:layout_width="335dp"
+        android:layout_height="43dp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="346dp"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/tx_beratbadan"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/ic_done"
+        android:onClick="button_onClick"
+        android:text="Simpan"
+        tools:layout_editor_absoluteY="449dp"
+        tools:layout_editor_absoluteX="249dp" />
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="120dp"
+        android:layout_height="44dp"
+        android:text="Kembali"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/ic_arrow"
+        android:layout_alignParentBottom="true"
+        android:onClick="button_onClick"
+        android:layout_alignRight="@+id/tx_beratbadan"
+        android:layout_alignEnd="@+id/tx_beratbadan"
+        tools:layout_editor_absoluteY="448dp"
+        tools:layout_editor_absoluteX="31dp" />
+
+
+</android.support.constraint.ConstraintLayout>

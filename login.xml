@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context="com.example.sergio.kolestrol_1.Login">
+
+    <EditText
+        android:id="@+id/edt_userName"
+        android:layout_width="352dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="USER NAME"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/edt_Password"
+        android:layout_width="352dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+        android:text="Registrasi"
+        tools:layout_editor_absoluteY="329dp"
+        tools:layout_editor_absoluteX="205dp" />
+
+
+</android.support.constraint.ConstraintLayout>
